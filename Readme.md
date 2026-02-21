@@ -4,7 +4,7 @@
 
 <img src="src/assets/renting-interface.png" alt="wechat" width="90%" hspace='50'>
 
-<img src="src/assets/creating-home-page.png" alt="wechat" width="90%" hspace='50'>
+<img src="src/assets/home-page.png" alt="wechat" width="90%" hspace='50'>
 
 
 
