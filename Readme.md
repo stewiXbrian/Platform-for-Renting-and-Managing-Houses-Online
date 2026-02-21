@@ -4,9 +4,8 @@
 
 <img src="src/assets/renting-interface.png" alt="wechat" width="90%" hspace='50'>
 
-<img src="src/assets/creating-home.png" alt="wechat" width="90%" hspace='50'>
+<img src="src/assets/creating-home-page.png" alt="wechat" width="90%" hspace='50'>
 
-<img src="src/assets/renting-interface.png" alt="wechat" width="90%" hspace='50'>
 
 
 This project was developed as part of a final-year project for the completion of a Bachelor’s degree in Software Engineering at the faculty of sciences of monastir.
