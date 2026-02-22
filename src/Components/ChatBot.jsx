@@ -12,7 +12,7 @@ import { IconMessage, IconX, IconSend, IconTrash } from '@tabler/icons-react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Replace with your actual Gemini API key (securely, e.g., via environment variables)
-const API_KEY = 'AIzaSyD00v-wtQt5-Np2j90eLMO3Qlkfs97Njlk'; // WARNING: Use env variables in production
+const API_KEY = 'gemini api key'; // WARNING: Use env variables in production
 
 const ChatBot = ({ chatData }) => {
   const [messages, setMessages] = useState([]);
