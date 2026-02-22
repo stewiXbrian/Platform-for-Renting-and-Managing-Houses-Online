@@ -10,7 +10,7 @@ import markerShadow from 'leaflet/dist/images/marker-shadow.png';
 import L from 'leaflet';
 
 // Move API key to environment variable in production
-const GEOAPIFY_API_KEY = 'b01a251bc6054da09e574e135d399642';
+const GEOAPIFY_API_KEY = 'geoapi key';
 
 // Fix Leaflet marker icons
 const DefaultIcon = L.icon({
