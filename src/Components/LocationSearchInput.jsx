@@ -4,7 +4,7 @@ import { IconSearch, IconMapPin, IconX } from '@tabler/icons-react';
 import { useNavigate } from 'react-router-dom';
 
 // Move API key to environment variable in production
-const GEOAPIFY_API_KEY = 'b01a251bc6054da09e574e135d399642';
+const GEOAPIFY_API_KEY = 'geoapi key';
 
 // Recognized cities in Tunisia that map to our data structure
 const RECOGNIZED_CITIES = ["tunis", "sousse", "monastir"];
