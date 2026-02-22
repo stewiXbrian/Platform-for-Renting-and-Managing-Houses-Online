@@ -12,7 +12,7 @@ const fastify = Fastify({
 });
 
 // MongoDB connection URI
-const uri = 'mongodb+srv://chaiebayoub4:bioshock1@cluster0.6juyl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const uri = 'mongodb uri';
 const client = new MongoClient(uri);
 
 // Simulated database for verification tokens
@@ -48,7 +48,7 @@ fastify.register(fastifyMultipart, {
 
 // Configure MailerSend
 const mailerSend = new MailerSend({
-  apiKey: 'mlsn.1be2051170044997f13f3fe9befe8dde8d2ae5c48a77c6be24cf3bd5ccbb92f3',
+  apiKey: 'mailsender api',
 });
 
 const SENDER_EMAIL = 'noreply@test-r6ke4n11kw3gon12.mlsender.net';
