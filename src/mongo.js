@@ -9,7 +9,7 @@ import { MailerSend, EmailParams, Sender, Recipient } from 'mailersend';
 
 const fastify = Fastify({ logger: true });
 
-const uri = 'mongodb+srv://chaiebayoub4:bioshock1@cluster0.6juyl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const uri = 'replace with mongo uri';
 const client = new MongoClient(uri);
 
 async function connectToDatabase() {
@@ -35,9 +35,9 @@ fastify.register(fastifyMultipart, {
 });
 
 const mailerSend = new MailerSend({
-  apiKey: 'mlsn.4e94d6e34b7b1119df97448c8eedfb5bd7615fba9416b9f5dcf7ff92a028c36c',
+  apiKey: 'replace with mailsender api key',
 });
-const SENDER_EMAIL = 'noreply@test-xkjn41m5njq4z781.mlsender.net';
+const SENDER_EMAIL = 'noreply@test-xkjn41m5njq4z781.mlsender.net';//use another email from website
 
 const verificationTokens = new Map();
 
